@@ -1,0 +1,79 @@
+#skills {
+  height: 100vh;
+  width: 100vw;
+}
+#skillsHeader {
+  color: #6e6f58;
+  font-family: "Advent Pro", sans-serif;
+  text-shadow: 1px 1px #485543;
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+i {
+  font-size: 30px;
+  color: #f3efe2;
+  margin: 12px;
+}
+.icons {
+  display: grid;
+  grid: 50% / auto auto auto;
+  /* flex-direction: row; */
+}
+.awesomeFontIcons {
+  display: grid;
+  grid: 50% / auto auto auto;
+  /* flex-direction: row; */
+}
+.Iconimage {
+  width: 30px;
+  margin: 7px;
+}
+#allIconsDiv {
+  flex-direction: column;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.skillsAndName {
+  margin-top: 20px;
+  text-align: center;
+}
+.skillsText {
+  color: #666453;
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+  #skillsHeader {
+    font-size: 45px;
+  }
+
+  i {
+    font-size: 50px;
+  }
+  .Iconimage {
+    width: 50px;
+    margin: 7px;
+  }
+  .skillsAndName {
+    margin-top: 20px;
+  }
+  .skillsText {
+    font-size: 18px;
+    text-align: center;
+  }
+  .icons {
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .awesomeFontIcons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+  }
+}

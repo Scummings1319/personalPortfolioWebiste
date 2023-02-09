@@ -1,0 +1,122 @@
+#projects {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+#portfolioHeader {
+  color: #6e6f58;
+  font-family: "Advent Pro", sans-serif;
+  text-shadow: 1px 1px #485543;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.gameImg {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #b59284;
+  box-shadow: 0 0 8px #96796e;
+  border-radius: 2%;
+}
+.notYourMothersImg {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #b59284;
+  box-shadow: 0 0 8px #96796e;
+  border-radius: 2%;
+}
+#espressoImg {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #b59284;
+  box-shadow: 0 0 8px #96796e;
+  border-radius: 2%;
+}
+.gamerTitle {
+  font-size: 20px;
+  color: #faf7eb;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.notYourMothersTitle {
+  font-size: 20px;
+  color: #f3efe2;
+  margin-bottom: 10px;
+}
+#espressoTitle {
+  font-size: 20px;
+  color: #f3efe2;
+  margin-bottom: 10px;
+}
+.links {
+  text-decoration: none;
+  color: #6e8387;
+  font-size: 15px;
+}
+#gamerDepot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#notYourMothers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#gamerMotherDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+.espressoYourselfDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 800px) {
+  #portfolioHeader {
+    font-size: 45px;
+  }
+  .gameImg {
+    width: 400px;
+    height: 350px;
+  }
+  .notYourMothersImg {
+    width: 400px;
+    height: 350px;
+  }
+  #gamerMotherDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .gamerTitle {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .notYourMothersTitle {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  #espressoTitle {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  #espressoImg {
+    width: 400px;
+    height: 350px;
+  }
+  .espressoYourselfDiv {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #gamerDepotLink {
+    font-size: 20px;
+  }
+}
